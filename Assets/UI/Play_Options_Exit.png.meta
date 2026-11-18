@@ -117,16 +117,16 @@ TextureImporter:
         y: 683
         width: 256
         height: 341
-      alignment: 9
-      pivot: {x: 0.51, y: 0.46}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8955e6d6d2d55084d95f8bad7e18b629
-      internalID: 590841851
+      spriteID: c31ca3bb66b12d845864d221d6ed57c7
+      internalID: -27918506
       vertices: []
       indices: 
       edges: []
@@ -139,16 +139,16 @@ TextureImporter:
         y: 683
         width: 512
         height: 341
-      alignment: 9
-      pivot: {x: 0.51, y: 0.48}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aa9085884404454ea1d46006ec32665
-      internalID: -1997811763
+      spriteID: d061272beaafe1e479e184980af7aa87
+      internalID: 1881475324
       vertices: []
       indices: 
       edges: []
@@ -161,16 +161,16 @@ TextureImporter:
         y: 683
         width: 256
         height: 341
-      alignment: 9
-      pivot: {x: 0.56, y: 0.47}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0c90154ff0e78c4aa77a37a1b87caa0
-      internalID: -800000648
+      spriteID: bef30c95b1436464184e031f225c7741
+      internalID: -572280957
       vertices: []
       indices: 
       edges: []
@@ -183,16 +183,16 @@ TextureImporter:
         y: 342
         width: 256
         height: 341
-      alignment: 9
-      pivot: {x: 0.51, y: 0.46}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2276d331baed5fc439a7914e7db7a429
-      internalID: 984363937
+      spriteID: c7022da4650ec9849b974457c44b66ee
+      internalID: 1073298723
       vertices: []
       indices: 
       edges: []
@@ -205,16 +205,16 @@ TextureImporter:
         y: 342
         width: 512
         height: 341
-      alignment: 9
-      pivot: {x: 0.51, y: 0.48}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96fdeec9f1451084a8ef61b4f0683216
-      internalID: 260335655
+      spriteID: 6070b441fab521b458f0f72175ff97b2
+      internalID: 987487775
       vertices: []
       indices: 
       edges: []
@@ -227,16 +227,16 @@ TextureImporter:
         y: 342
         width: 256
         height: 341
-      alignment: 9
-      pivot: {x: 0.56, y: 0.47}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adc9b72673c2499459476614c282cbc7
-      internalID: -1229435576
+      spriteID: 1e9755aa7eb78a3408d6b06f2dea595c
+      internalID: -537816632
       vertices: []
       indices: 
       edges: []
@@ -245,7 +245,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f8146fa8aa8530444ae2c36d4385c598
+    spriteID: 91ca11294a3a71a498f3dc24e63b9e51
     internalID: 0
     vertices: []
     indices: 
@@ -257,14 +257,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":256.0,"y":341.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Play_Options_Exit_0: 590841851
-      Play_Options_Exit_1: -1997811763
-      Play_Options_Exit_2: 123742839
-      Play_Options_Exit_3: -800000648
-      Play_Options_Exit_4: 984363937
-      Play_Options_Exit_5: 260335655
-      Play_Options_Exit_6: 1698969534
-      Play_Options_Exit_7: -1229435576
+      Play_Options_Exit_0: -27918506
+      Play_Options_Exit_1: 1881475324
+      Play_Options_Exit_2: 511885696
+      Play_Options_Exit_3: -572280957
+      Play_Options_Exit_4: 1073298723
+      Play_Options_Exit_5: 987487775
+      Play_Options_Exit_6: -420707153
+      Play_Options_Exit_7: -537816632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
