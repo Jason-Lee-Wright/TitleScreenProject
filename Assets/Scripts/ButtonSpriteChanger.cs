@@ -12,7 +12,6 @@ public class ButtonSpriteChanger : MonoBehaviour, IPointerEnterHandler, IPointer
     public AudioClip clickSound; // Audio clip to play on click
     public Material ImageFadeMat;
 
-    private Material targetMaterial;
     private Image buttonImage;
     private AudioSource audioSource;
 
@@ -65,7 +64,7 @@ public class ButtonSpriteChanger : MonoBehaviour, IPointerEnterHandler, IPointer
     {
         float elapsed = 0f;
         float currentValue = ImageFadeMat.GetFloat("_colorfade");
-        Debug.Log("Working");
+        
         while (elapsed < duration)
         {
             elapsed += Time.deltaTime;

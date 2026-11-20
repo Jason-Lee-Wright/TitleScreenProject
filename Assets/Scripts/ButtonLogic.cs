@@ -2,15 +2,25 @@ using UnityEngine;
 
 public class ButtonLogic : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private GameObject optionsmenu;
+    private bool optionsBool;
+
+    private void Awake()
     {
-        
+        optionsmenu = GameObject.FindGameObjectWithTag("Options");
+        if (optionsmenu != null);
     }
 
-    // Update is called once per frame
-    void Update()
+    void BPlay()
     {
-        
+        //This is where I would change scenes if I had one
+    }
+
+    void BOptions()
+    {
+        if (optionsmenu == false)
+        {
+
+        }
     }
 }
