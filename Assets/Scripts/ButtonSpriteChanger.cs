@@ -44,8 +44,7 @@ public class ButtonSpriteChanger : MonoBehaviour, IPointerEnterHandler, IPointer
     public void OnPointerClick(PointerEventData eventData)
     {
         buttonImage.sprite = clickSprite;
-        ImageFadeMat.SetFloat("colorfade", 1f);
-        Debug.Log(ImageFadeMat.GetFloat("_colorfade"));
+        StartCoroutine(ColorFadeTimer(0f, 1f, 0.3f));
         StartCoroutine(RevertToDefaultSpriteAfterDelay());
 
         // Play click sound
@@ -59,6 +58,23 @@ public class ButtonSpriteChanger : MonoBehaviour, IPointerEnterHandler, IPointer
     {
         yield return new WaitForSeconds(clickSpriteDuration);
         buttonImage.sprite = defaultSprite;
-        ImageFadeMat.SetFloat("colorfade", 0f);
+        ImageFadeMat.SetFloat("_colorfade", 0f);
+    }
+
+    private IEnumerator ColorFadeTimer(float start, float end, float duration)
+    {
+        float elapsed = 0f;
+        float currentValue = ImageFadeMat.GetFloat("_colorfade");
+        Debug.Log("Working");
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / duration;
+            currentValue = Mathf.Lerp(start, end, t);
+            ImageFadeMat.SetFloat("_colorfade", currentValue);
+            yield return null;
+        }
+
+        ImageFadeMat.SetFloat("_colorfade", end);
     }
 }

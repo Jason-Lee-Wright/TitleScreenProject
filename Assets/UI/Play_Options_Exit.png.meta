@@ -113,12 +113,12 @@ TextureImporter:
       name: Play_Options_Exit_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 683
-        width: 256
-        height: 341
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 21
+        y: 727
+        width: 242
+        height: 245
+      alignment: 9
+      pivot: {x: 0.48471606, y: 0.47374454}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -135,12 +135,12 @@ TextureImporter:
       name: Play_Options_Exit_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 683
-        width: 512
-        height: 341
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 261
+        y: 721
+        width: 511
+        height: 268
+      alignment: 9
+      pivot: {x: 0.52803785, y: 0.562224}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -154,15 +154,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Play_Options_Exit_3
+      name: Play_Options_Exit_2
       rect:
         serializedVersion: 2
         x: 768
-        y: 683
+        y: 728
         width: 256
-        height: 341
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 260
+      alignment: 9
+      pivot: {x: 0.6112573, y: 0.47258675}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -176,15 +176,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Play_Options_Exit_4
+      name: Play_Options_Exit_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 342
-        width: 256
-        height: 341
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 14
+        y: 377
+        width: 242
+        height: 245
+      alignment: 9
+      pivot: {x: 0.48471606, y: 0.47374454}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -198,15 +198,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Play_Options_Exit_5
+      name: Play_Options_Exit_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 342
-        width: 512
-        height: 341
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 258
+        y: 375
+        width: 511
+        height: 268
+      alignment: 9
+      pivot: {x: 0.52803785, y: 0.562224}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -220,15 +220,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Play_Options_Exit_7
+      name: Play_Options_Exit_5
       rect:
         serializedVersion: 2
         x: 768
-        y: 342
+        y: 386
         width: 256
-        height: 341
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 260
+      alignment: 9
+      pivot: {x: 0.59129214, y: 0.4616657}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,12 +259,10 @@ TextureImporter:
     nameFileIdTable:
       Play_Options_Exit_0: -27918506
       Play_Options_Exit_1: 1881475324
-      Play_Options_Exit_2: 511885696
-      Play_Options_Exit_3: -572280957
-      Play_Options_Exit_4: 1073298723
-      Play_Options_Exit_5: 987487775
-      Play_Options_Exit_6: -420707153
-      Play_Options_Exit_7: -537816632
+      Play_Options_Exit_2: -572280957
+      Play_Options_Exit_3: 1073298723
+      Play_Options_Exit_4: 987487775
+      Play_Options_Exit_5: -537816632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
